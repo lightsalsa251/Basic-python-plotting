@@ -1,0 +1,21 @@
+In simple words, principal component analysis is a method of extracting important variables (in form of components) from a large set of variables available in a data set. It extracts low dimensional set of features from a high dimensional data set with a motive to capture as much information as possible.
+With fewer variables, visualization also becomes much more meaningful.
+PCA is more useful when dealing with 3 or higher dimensional data.
+the matrix should be numeric and have standardized data
+Let’s say we have a data set of dimension 300 (n) × 50 (p). n represents the number of observations and p represents number of predictors. Since we have a large p = 50, there can be p(p-1)/2 scatter plots i.e more than 1000 plots possible to analyze the variable relationship.
+Wouldn’t is be a tedious job to perform exploratory analysis on this data ?
+
+In this case, it would be a lucid approach to select a subset of p (p << 50) predictor which captures as much information.
+Followed by plotting the observation in the resultant low dimensional space.
+
+A principal component is a normalized linear combination of the original predictors in a data set.
+PCA is used to overcome features redundancy in a data set.
+These features are low dimensional in nature.
+These features a.k.a components are a resultant of normalized linear combination of original predictor variables.
+These components aim to capture as much information as possible with high explained variance.
+The first component has the highest variance followed by second, third and so on.
+The components must be uncorrelated (remember orthogonal direction ? ). See above.
+Normalizing data becomes extremely important when the predictors are measured in different units.
+PCA works best on data set having 3 or higher dimensions. Because, with higher dimensions, it becomes increasingly difficult to make interpretations from the resultant cloud of data.
+PCA is applied on a data set with numeric variables.
+PCA is a tool which helps to produce better visualizations of high dimensional data.
